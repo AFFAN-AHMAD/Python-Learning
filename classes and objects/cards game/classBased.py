@@ -18,6 +18,7 @@ class Deck:
     def __init__(self, cards):
         self.cards = cards
 
+    """class methods are methods which receives class as its first argument instead of self"""
     @classmethod
     def create(cls, shuffle=False):
         """Create a new deck of 52 cards"""
